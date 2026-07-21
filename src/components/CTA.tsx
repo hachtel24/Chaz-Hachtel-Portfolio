@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CTA() {
     return (
-        <section className="relative bg-primary border-t border-white/10 py-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section className="relative bg-primary border-t border-white/10 pt-10 md:pt-14 pb-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
             <motion.div
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[50vw] rounded-full bg-accent/10 blur-[140px] -z-10"
                 animate={{ scale: [1, 1.15, 1] }}

@@ -28,7 +28,7 @@ const offerings = [
 
 export default function WhatIDo() {
     return (
-        <section className="relative bg-primary py-24 md:py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section className="relative bg-primary pt-10 md:pt-14 pb-24 md:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

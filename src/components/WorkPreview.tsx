@@ -10,7 +10,7 @@ export default function WorkPreview() {
     const featured = projects.filter((p) => p.featured).slice(0, 3);
 
     return (
-        <section className="relative bg-primary py-24 md:py-32 px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-primary pt-10 md:pt-14 pb-24 md:pb-32 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

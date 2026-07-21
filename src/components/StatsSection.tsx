@@ -32,7 +32,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
 
 export default function StatsSection() {
     return (
-        <section className="relative bg-primary border-t border-white/10 py-20 px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-primary border-t border-white/10 pt-10 md:pt-14 pb-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-6 text-center">
                 {stats.map((stat, i) => (
                     <motion.div

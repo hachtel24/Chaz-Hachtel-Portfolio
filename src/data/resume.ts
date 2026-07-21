@@ -13,6 +13,19 @@ export const experience = [
         ]
     },
     {
+        company: "Pancake Haus",
+        role: "Dish Staff & Creative Web Designer",
+        period: "2025 – Present",
+        location: "Edmonds, WA",
+        description: "Family restaurant, Chachtel Sprints flagship case study.",
+        points: [
+            "Designed and built the restaurant's website, including a dedicated careers section.",
+            "Created menu, promotional, and seasonal campaign graphics, posters, and signage.",
+            "Produced merchandise designs and print materials for the restaurant brand.",
+            "Supported day-to-day restaurant operations and customer service."
+        ]
+    },
+    {
         company: "Jethro Mobile",
         role: "Marketing & IT Specialist",
         period: "Dec 2024 – June 2025",
