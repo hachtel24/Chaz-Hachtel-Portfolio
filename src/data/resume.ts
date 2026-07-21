@@ -21,7 +21,7 @@ export const experience = [
         points: [
             "Designed and built the restaurant's website, including a dedicated careers section.",
             "Created menu, promotional, and seasonal campaign graphics, posters, and signage.",
-            "Produced merchandise designs and print materials for the restaurant brand.",
+            "Designed branded merchandise and set up online sales, selling a wide range of t-shirts.",
             "Supported day-to-day restaurant operations and customer service."
         ]
     },
