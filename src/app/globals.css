@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-mint: var(--mint);
+  --color-ice: var(--ice);
+  --color-navy: var(--navy);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+  --font-display: var(--font-poppins), ui-sans-serif, system-ui;
+}
+
+:root {
+  /* Brand Colors */
+  --midnight-navy: #071C2C;
+  --sea-teal: #1AA3AD;
+  --electric-aqua: #46DBE4;
+  --frosted-mint: #A8F2EA;
+  --misty-ice-blue: #DAEAF5;
+  --neutral-gray: #C7C7C7;
+
+  /* Theme Mapping */
+  --background: #FFFFFF;
+  --foreground: var(--midnight-navy);
+
+  --primary: var(--midnight-navy);
+  --secondary: var(--sea-teal);
+  --accent: var(--electric-aqua);
+  --mint: var(--frosted-mint);
+  --ice: var(--misty-ice-blue);
+  --navy: var(--midnight-navy);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
