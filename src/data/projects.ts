@@ -29,7 +29,7 @@ export const projects = [
         description: "A speculative full redesign for a Vietnamese restaurant, built to demonstrate the concept before outreach — premium dark visual direction with menu, location, and mobile navigation as core benefits.",
         tech: ["Next.js", "React", "Tailwind CSS", "Figma"],
         link: "https://pho-than-brothers.vercel.app/",
-        image: "",
+        image: "/pho_than_brothers_preview.png",
         featured: true,
         status: "In Progress"
     },
@@ -39,8 +39,8 @@ export const projects = [
         category: "Web Development",
         description: "Website redesign and content migration for a local golf center, including homepage copy updates.",
         tech: ["Next.js", "React", "Tailwind CSS"],
-        link: "",
-        image: "",
+        link: "https://snohomish-valley-golf-center.vercel.app/",
+        image: "/snohomish_golf_preview.png",
         featured: false,
         status: "In Progress"
     },

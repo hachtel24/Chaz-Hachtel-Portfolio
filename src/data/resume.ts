@@ -7,7 +7,7 @@ export const experience = [
         description: "Digital studio providing fast-turn web design, branding assets, and customer friction analysis for small businesses.",
         points: [
             "Built and migrated Pancake Haus's restaurant website to a code-first Antigravity IDE / Claude Code / GitHub / Vercel workflow.",
-            "Designed and shipped a speculative full redesign for Pho Than Brothers as an outreach case study.",
+            "Designed and shipped full redesigned and brand-integrated websites in efficient brand sprints.",
             "Designed branding direction for Wicked Iron Works including logos, mockups, and color palettes.",
             "Specialized in fast-turnaround website creation, branding assets, and AI-assisted graphic production."
         ]
@@ -57,15 +57,15 @@ export const education = [
 export const skills = [
     {
         category: "Digital Marketing",
-        items: ["Strategy & Funnels", "SEO (Technical & Content)", "AI-Assisted Paid Media (SEM/Social)", "Email Marketing", "Content Strategy"]
+        items: ["Strategy & Funnels", "SEO (Technical & Content)", "Paid Media (SEM/Social)", "Email Marketing", "Content Strategy"]
     },
     {
         category: "Technical & Web",
-        items: ["Next.js", "React", "Tailwind CSS", "Lovable / Wix / Webflow", "AI-Assisted HTML/CSS", "Claude Code", "Antigravity"]
+        items: ["Next.js", "React", "Tailwind CSS", "Lovable / Wix / Webflow", "HTML/CSS", "Claude Code", "Antigravity"]
     },
     {
         category: "Analytics & Data",
-        items: ["AI-Assisted Google Analytics (GA4)", "SQL", "Power BI", "R", "A/B Testing"]
+        items: ["Google Analytics (GA4)", "SQL", "Power BI", "R", "A/B Testing"]
     },
     {
         category: "Creative & AI",
