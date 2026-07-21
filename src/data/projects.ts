@@ -7,7 +7,7 @@ export const projects = [
         tech: ["Next.js", "React", "Tailwind CSS"],
         link: "https://spoon-and-straw-web.vercel.app/",
         image: "/spoon_straw_preview_1769042831484.png",
-        featured: true,
+        featured: false,
         status: "Pending"
     },
     {
@@ -18,6 +18,7 @@ export const projects = [
         tech: ["Lovable", "Canva", "Figma"],
         link: "https://pancakehaus.vercel.app/",
         image: "/pancake_haus_preview_1769042795708.png",
+        homeImage: "/pancake_haus_mobile_preview.png",
         stats: ["7 Day Turnaround", "Full Rebrand"],
         featured: true,
         status: "Pending"
@@ -30,7 +31,7 @@ export const projects = [
         tech: ["Next.js", "React", "Tailwind CSS", "Figma"],
         link: "https://pho-than-brothers.vercel.app/",
         image: "/pho_than_brothers_preview.png",
-        featured: true,
+        featured: false,
         status: "In Progress"
     },
     {
@@ -41,7 +42,8 @@ export const projects = [
         tech: ["Next.js", "React", "Tailwind CSS"],
         link: "https://snohomish-valley-golf-center.vercel.app/",
         image: "/snohomish_golf_preview.png",
-        featured: false,
+        homeImage: "/svgc_mobile_preview.png",
+        featured: true,
         status: "In Progress"
     },
     {
@@ -52,7 +54,8 @@ export const projects = [
         tech: ["Canva", "AI Image Gen", "Figma"],
         link: "https://wicked-sigma.vercel.app/",
         image: "/wicked_iron_preview_1769042815662.png",
-        featured: false,
+        homeImage: "/wicked_iron_mobile_preview.png",
+        featured: true,
         status: "Live"
     }
 ];

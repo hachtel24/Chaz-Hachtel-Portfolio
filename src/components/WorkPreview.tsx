@@ -49,9 +49,9 @@ export default function WorkPreview() {
                             transition={{ duration: 0.5, delay: i * 0.1 }}
                             className="group relative aspect-[4/5] rounded-2xl overflow-hidden block bg-white/5"
                         >
-                            {project.image && (
+                            {(project.homeImage || project.image) && (
                                 <Image
-                                    src={project.image}
+                                    src={project.homeImage || project.image}
                                     alt={project.title}
                                     fill
                                     className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
